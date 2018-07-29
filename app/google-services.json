@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "715427468651",
+    "firebase_url": "https://postit-e8666.firebaseio.com",
+    "project_id": "postit-e8666",
+    "storage_bucket": "postit-e8666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715427468651:android:5cd214a2b3d5716a",
+        "android_client_info": {
+          "package_name": "com.sagor.sagorsarker.postit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715427468651-9637vqfkcd5popac710qp61ulk5soald.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sagor.sagorsarker.postit",
+            "certificate_hash": "aaf7e64f1b016df74f23cbeb51a309e7035591ba"
+          }
+        },
+        {
+          "client_id": "715427468651-mkb4s9navl5vj22hmffivm660pcp7r32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Q_01R6CUGgvlbxwf6oaJDX5eAmrdMMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715427468651-mkb4s9navl5vj22hmffivm660pcp7r32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

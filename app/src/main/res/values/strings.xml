@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Post It</string>
+    <string name="login">Login</string>
+    <string name="register">Register Now</string>
+    <string name="notregister">Not Register Yet?</string>
+    <string name="hintemail">Email</string>
+    <string name="hintpass">Password</string>
+    <string name="hintsixdigitpass">Your Six Digit Password</string>
+    <string name="help_text">
+
+        <b>Post It</b> is a social blogging android app with anonymous posting access.
+        \n\nFirst press <b>Register Now</b> and post what you want.
+        \n\nRemember your email and password, so that you can login again
+        \nPassword must be six digit. not less or more.
+
+
+    </string>
+
+   <!-- test ads<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-4703736929075952/2092362486</string>
+
+</resources>

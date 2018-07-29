@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginactivity"
+    tools:context="com.sagor.sagorsarker.postit.LoginActivity">
+
+    <EditText
+        android:id="@+id/loginemalifield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/style_back"
+        android:padding="20dp"
+        android:ems="10"
+        android:hint="@string/hintemail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/loginpassfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginemalifield"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/style_back"
+        android:padding="20dp"
+        android:ems="10"
+        android:hint="@string/hintpass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/logsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginpassfield"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="@string/login" />
+
+
+    <Button
+        android:id="@+id/gotoregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="@string/register" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gotoregister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/notregister" />
+</RelativeLayout>
